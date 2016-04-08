@@ -947,6 +947,16 @@
     <Content Include="Areas\Template\Assets\bower.json" />
     <Content Include="Areas\Template\Assets\composer.json" />
     <Content Include="Areas\Template\Assets\package.json" />
+    <Content Include="Areas\Module01\Views\web.config" />
+    <Content Include="Areas\Module02\Views\web.config" />
+    <Content Include="Areas\Module03\Views\web.config" />
+    <Content Include="Areas\Module04\Views\web.config" />
+    <Content Include="Areas\Module05\Views\web.config" />
+    <Content Include="Areas\Module06\Views\web.config" />
+    <Content Include="Areas\Module07\Views\web.config" />
+    <Content Include="Areas\Module08\Views\web.config" />
+    <Content Include="Areas\Module09\Views\web.config" />
+    <Content Include="Areas\Module10\Views\web.config" />
     <None Include="Areas\Template\Assets\dist\js\jquery-1.10.2.intellisense.js" />
     <Content Include="Areas\Template\Assets\dist\js\jquery-1.10.2.js" />
     <Content Include="Areas\Template\Assets\dist\js\jquery-1.10.2.min.js" />
@@ -964,6 +974,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Areas\Module01\Module01AreaRegistration.cs" />
+    <Compile Include="Areas\Module02\Module02AreaRegistration.cs" />
+    <Compile Include="Areas\Module03\Module03AreaRegistration.cs" />
+    <Compile Include="Areas\Module04\Module04AreaRegistration.cs" />
+    <Compile Include="Areas\Module05\Module05AreaRegistration.cs" />
+    <Compile Include="Areas\Module06\Module06AreaRegistration.cs" />
+    <Compile Include="Areas\Module07\Module07AreaRegistration.cs" />
+    <Compile Include="Areas\Module08\Module08AreaRegistration.cs" />
+    <Compile Include="Areas\Module09\Module09AreaRegistration.cs" />
+    <Compile Include="Areas\Module10\Module10AreaRegistration.cs" />
     <Compile Include="Areas\Template\Controllers\AdminLTEController.cs" />
     <Compile Include="Areas\Template\TemplateAreaRegistration.cs" />
     <Compile Include="Controllers\BaseController.cs" />
@@ -986,6 +1006,36 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Areas\Module01\Controllers\" />
+    <Folder Include="Areas\Module01\Models\" />
+    <Folder Include="Areas\Module01\Views\Shared\" />
+    <Folder Include="Areas\Module02\Controllers\" />
+    <Folder Include="Areas\Module02\Models\" />
+    <Folder Include="Areas\Module02\Views\Shared\" />
+    <Folder Include="Areas\Module03\Controllers\" />
+    <Folder Include="Areas\Module03\Models\" />
+    <Folder Include="Areas\Module03\Views\Shared\" />
+    <Folder Include="Areas\Module04\Controllers\" />
+    <Folder Include="Areas\Module04\Models\" />
+    <Folder Include="Areas\Module04\Views\Shared\" />
+    <Folder Include="Areas\Module05\Controllers\" />
+    <Folder Include="Areas\Module05\Models\" />
+    <Folder Include="Areas\Module05\Views\Shared\" />
+    <Folder Include="Areas\Module06\Controllers\" />
+    <Folder Include="Areas\Module06\Models\" />
+    <Folder Include="Areas\Module06\Views\Shared\" />
+    <Folder Include="Areas\Module07\Controllers\" />
+    <Folder Include="Areas\Module07\Models\" />
+    <Folder Include="Areas\Module07\Views\Shared\" />
+    <Folder Include="Areas\Module08\Controllers\" />
+    <Folder Include="Areas\Module08\Models\" />
+    <Folder Include="Areas\Module08\Views\Shared\" />
+    <Folder Include="Areas\Module09\Controllers\" />
+    <Folder Include="Areas\Module09\Models\" />
+    <Folder Include="Areas\Module09\Views\Shared\" />
+    <Folder Include="Areas\Module10\Controllers\" />
+    <Folder Include="Areas\Module10\Models\" />
+    <Folder Include="Areas\Module10\Views\Shared\" />
     <Folder Include="Areas\Template\Models\" />
     <Folder Include="Models\" />
     <Folder Include="Views\Base\" />
