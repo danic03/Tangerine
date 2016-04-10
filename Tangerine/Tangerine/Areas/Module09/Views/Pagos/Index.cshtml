@@ -1,0 +1,66 @@
+﻿@{
+    ViewBag.Title = "Index";
+
+}
+<section class="content-header">
+    <h1>
+        Pagos
+        <small></small>
+    </h1>
+    <ol class="breadcrumb">
+        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+        <li>Factura</li>
+        <li class="active">Pagos</li>
+    </ol>
+</section>
+
+<section class="content">
+    <div class="row">
+        <section class="col-lg-12 connectedsortable ui-sortable">
+            <div class="box box-info">
+                <div class="box-header ui-sortable-handle" style="cursor: move;">
+                    <i class="fa fa-book"></i>
+                    <h3 class="box-title">Datos de Factura: XXXXXXX</h3>
+                </div>
+                <div class="box-body">
+                    <div class="table-responsive">
+                        <table class="table no-margin">
+                            <thead>
+                                <tr>
+                                    <th>Pago</th>
+                                    <th>Descripcion</th>
+                                    <th>Status</th>
+                                    <th class="pull-right">Monto</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><a href="../../Areas/Template/static/examples/invoice.html">PTD000</a></td>
+                                    <td>Primera parte para el inicio del proyecto.</td>
+                                    <td><span class="label label-success">Confirmado</span></td>
+                                    <td><div class="sparkbar pull-right" data-color="#00a65a" data-height="20">$20,000.00</div></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="../../Areas/Template/static/examples/invoice.html">PTD001</a></td>
+                                    <td>Segunda parte para 60% proyecto.</td>
+                                    <td><span class="label label-warning">En Proceso</span></td>
+                                    <td><div class="sparkbar pull-right" data-color="#00a65a" data-height="20">$5,000.00</div></td>
+                                </tr>
+                                <tr>
+                                    <td><a href="../../Areas/Template/static/examples/invoice.html">PTD002</a></td>
+                                    <td>Tercera parte para 100% proyecto.</td>
+                                    <td><span class="label label-danger">Pendiente</span></td>
+                                    <td><div class="sparkbar pull-right" data-color="#00a65a" data-height="20">$5,000.00</div></td>
+                                </tr>                                
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="box-footer clearfix">
+                    <button class="pull-right btn btn-default" id="sendEmail">Pagar <i class="fa fa-arrow-circle-right"></i></button>
+                </div>
+            </div>
+
+        </section>
+    </div>
+</section>
