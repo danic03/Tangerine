@@ -153,13 +153,6 @@ $RECYCLE.BIN/
 # Mac crap
 .DS_Store
 
-
-#############
-## Python
-#############
-
-*.py[cod]
-
 # Packages
 *.egg
 *.egg-info
@@ -188,3 +181,4 @@ pip-log.txt
 Tangerine/Tangerine/obj/Debug/Tangerine.pdb
 Tangerine/Tangerine/obj/Debug/Tangerine.csprojResolveAssemblyReference.cache
 Tangerine/Tangerine/bin/Tangerine.pdb
+
